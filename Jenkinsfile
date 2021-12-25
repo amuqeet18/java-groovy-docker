@@ -1,5 +1,5 @@
 node('master')   {
-      def dockerImageName= 'intdoc89/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
+      def dockerImageName= 'amuqeet18121999/javadedockerapp_$JOB_NAME:$BUILD_NUMBER'
       stage('SCM Checkout'){
          echo "Started code checkout"
          git 'https://github.com/amuqeet18/java-groovy-docker.git'          
